@@ -37,3 +37,5 @@ if __name__ == "__main__":
     stopwords = {"is", "a", "with"}
     cleaned_text = clean_text(sample_text, stopwords)
     print("Cleaned Text:", cleaned_text)
+    # Output: "hello world test message numbers"
+    # The cleaned text is now ready for further processing, such as tokenization or vectorization.
