@@ -2,6 +2,8 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.datasets import load_iris
 from sklearn.metrics import accuracy_score
+import numpy as np
+
 
 # Load dataset
 data = load_iris()
